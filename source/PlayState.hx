@@ -96,10 +96,6 @@ class PlayState extends FlxState
 
 	inline function paint(x:Int, y:Int)
 	{
-		var curColor:FlxColor = __giantMatrix[x][y];
-		curColor = curColor + defaultStroke;
-		__giantMatrix[x][y] = curColor;
-
 		for(i in -3...4)
 		{
 			for(j in -3...4)
